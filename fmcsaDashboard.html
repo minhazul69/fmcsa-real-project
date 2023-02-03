@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fmcsaDashboard.css" />
+    <!-- FONT AWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BOOTSTRAP LINK ADDED -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- START COMPANY DETAILS SECTION -->
+    <section class="container-fluid mx-auto py-4 bg-white">
+      <div class="row align-items-center py-3 border-bottom">
+        <div class="col-md-6">
+          <div
+            class="d-flex align-items-center justify-content-between justify-content-lg-start w-100"
+          >
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-trash-can text-danger"></i>
+              <h5 class="font-weight-bold mb-0 mx-2">Company Details</h5>
+            </div>
+            <div class="text-lg-left text-right">
+              <i class="fa-solid fa-pen primary-text"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 text-lg-right text-center mt-3 mt-lg-0">
+          <button class="btn text-white primary-bg">Reset Password</button>
+          <button class="btn secondary-bg text-white ml-3">Sales Page</button>
+        </div>
+      </div>
+      <div class="row px-lg-4 px-3 py-3 border-bottom">
+        <div class="col-md-4 responsive-bottom-border pb-3 pb-lg-0">
+          <h5 class="font-weight-bold">Campany Info :</h5>
+          <div class="d-flex align-items-center mt-4">
+            <h6
+              class="d-flex align-items-center justify-content-between company-info-heading"
+            >
+              DBA <span>:</span>
+            </h6>
+            <h6 class="company-info-text">N/A</h6>
+          </div>
+          <div class="d-flex align-items-center mt-4">
+            <h6
+              class="d-flex align-items-center justify-content-between company-info-heading"
+            >
+              Company Name <span>:</span>
+            </h6>
+            <h6 class="company-info-text">1</h6>
+          </div>
+          <div class="d-flex align-items-center mt-4">
+            <h6
+              class="d-flex align-items-center justify-content-between company-info-heading"
+            >
+              SSN<span>:</span>
+            </h6>
+            <h6 class="company-info-text">589179875</h6>
+          </div>
+          <div class="d-flex align-items-center mt-4">
+            <h6
+              class="d-flex align-items-center justify-content-between company-info-heading"
+            >
+              EIN<span>:</span>
+            </h6>
+            <h6 class="company-info-text">N/A</h6>
+          </div>
+          <div class="d-flex align-items-center mt-4">
+            <h6
+              class="d-flex align-items-center justify-content-between company-info-heading"
+            >
+              PIN Number<span>:</span>
+            </h6>
+            <h6 class="company-info-text">N/A</h6>
+          </div>
+        </div>
+        <div class="col-md-8 border-lg-left responsive-border-left">
+          <div class="px-lg-3 pt-3 pt-lg-0">
+            <h5 class="font-weight-bold">Address 1 :</h5>
+            <div class="row border-bottom pb-4">
+              <div class="col-md-6">
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Address 1<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">N/A</h6>
+                </div>
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    City <span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">Tacoma</h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    State<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">Washington</h6>
+                </div>
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Zip Code<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">98403</h6>
+                </div>
+              </div>
+            </div>
+            <h5 class="font-weight-bold mt-3">Contact :</h5>
+            <div class="row pb-4">
+              <div class="col-md-6">
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Phone number<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">+1 (206) 474-6460</h6>
+                </div>
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Email Address 1 <span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">Billyrayjay@gmail.com</h6>
+                </div>
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Who manages <span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">Billy Ray Jackson</h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Secondary Number<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">N/A</h6>
+                </div>
+                <div class="d-flex align-items-center mt-3">
+                  <h6
+                    class="d-flex align-items-center justify-content-between company-info-heading"
+                  >
+                    Email Address 2<span>:</span>
+                  </h6>
+                  <h6 class="company-info-text">N/A</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-4 mt-4">
+        <h5 class="font-weight-bold">Quick Automation - 1x Truck & Driver</h5>
+        <div class="row flex-lg-row flex-column-reverse">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="mr-lg-3 mt-4 mt-lg-0">
+                <button
+                  class="btn border border-success success-text font-weight-bold px-3 mr-2 fix-btn"
+                >
+                  Intra (With State) DOT
+                </button>
+                <button
+                  class="btn success-bg text-white font-weight-bold px-3 fix-btn"
+                >
+                  MC+DOT (Interstate)
+                </button>
+              </div>
+              <div class="mt-4 mt-lg-0">
+                <button
+                  class="btn border border-danger text-danger font-weight-bold mr-2 responsive-fix-btn"
+                >
+                  Resend Order Email
+                </button>
+                <button
+                  class="btn secondary-bg text-dark font-weight-bold responsive-fix-btn"
+                >
+                  <img
+                    src="./Images/Dashboard-img/Icon/Icon/Vector.png"
+                    alt=""
+                    class="mb-1"
+                  />
+                  Add Product
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 responsive-border-left mt-3 mt-lg-0 translate-container"
+          >
+            <small> Automation Loading </small>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-success"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-end mt-2">
+              <div>
+                <img src="./Images/Dashboard-img/Icon/camera-icon.png" alt="" />
+                <span class="mr-4">(Step - 75)</span
+                ><img src="./Images/Dashboard-img/Icon/swich-icon.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-lg-row flex-column-reverse translate-container">
+          <div class="col-md-8 px-0 mt-3 mt-lg-0">
+            <div class="">
+              <button class="btn primary-border primary-text fix-btn mr-2">
+                <img
+                  src="./Images/Dashboard-img/Icon/car-icon.png"
+                  class="mr-2"
+                  alt=""
+                />Car Hauling
+              </button>
+              <button class="btn primary-border primary-text fix-btn">
+                <img
+                  src="./Images/Dashboard-img/Icon/house-hold.png"
+                  class="mr-2"
+                  alt=""
+                />Household Goods
+              </button>
+            </div>
+            <!-- <div class="mt-4">
+              <button class="btn primary-border primary-text fix-btn mr-2">
+                <img src="./Assest/Icon/two-truk.png" class="mr-2" alt="" />Tow
+                Truck
+              </button>
+              <button class="btn primary-border primary-text fix-btn">
+                <img src="./Assest/Icon/broker.png" class="mr-2" alt="" />Broker
+              </button>
+            </div> -->
+          </div>
+          <div class="col-md-4 responsive-border-left mt-3 mt-lg-0">
+            <div class="mt-3">
+              <img src="./Images/Dashboard-img/Icon/check-icon.png" alt="" />
+              <span class="ml-2">
+                Automation Order (Jan 19, 2023 02:30 PM)
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-lg-row flex-column-reverse translate-container">
+          <div class="col-md-8 px-0 mt-3 mt-lg-0 mt-lg-0">
+            <div class="pt-lg-3">
+              <button class="btn primary-border primary-text fix-btn mr-2">
+                <img
+                  src="./Images/Dashboard-img/Icon/two-truk.png"
+                  class="mr-2"
+                  alt=""
+                />Tow Truck
+              </button>
+              <button class="btn primary-border primary-text fix-btn">
+                <img
+                  src="./Images/Dashboard-img/Icon/broker.png"
+                  class="mr-2"
+                  alt=""
+                />Broker
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4 responsive-border-left mt-3 mt-lg-0 pt-3">
+            <div class="">
+              <img src="./Images/Dashboard-img/Icon/check-icon.png" alt="" />
+              <span class="ml-2">
+                Automation Order (Jan 19, 2023 02:30 PM)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END COMPANY DETAILS SECTION -->
+    <!-- START QUESTIONNAIRES INFORMATION SECTION -->
+    <section class="py-4 bg-white mt-5">
+      <div class="border-bottom pb-3">
+        <div class="container-fluid mx-auto">
+          <h5 class="font-weight-bold">Questionnaires Information</h5>
+        </div>
+      </div>
+      <div class="container-fluid mx-auto table-responsive">
+        <table class="table table-bordered mt-4">
+          <tbody>
+            <tr>
+              <td class="font-weight-bold">Name</td>
+              <td class="font-weight-bold">Date</td>
+              <td class="font-weight-bold">Order ID</td>
+              <td class="font-weight-bold">View Answer</td>
+              <td class="font-weight-bold">View PDF</td>
+            </tr>
+            <tr>
+              <td>Sample Questionnaire Name</td>
+              <td>Jan 19, 2023</td>
+              <td>ID12345667777</td>
+              <td><a href="">Answer</a></td>
+              <td><a href="">name-file.pdf</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- END QUESTIONNAIRES INFORMATION SECTION -->
+    <!-- START EMAIL CONVERSATIONS -->
+    <section class="mt-4 bg-white">
+      <div class="border-bottom pb-3">
+        <div
+          class="container-fluid mx-auto d-lg-flex align-content-center justify-content-between"
+        >
+          <h5 class="font-weight-bold">Email Conversations</h5>
+          <button
+            class="btn create-email-btn responsive-btn-block mt-3 mt-lg-0"
+          >
+            <img
+              src="./Images/Dashboard-img/Icon/error-email-icon.png"
+              class="mr-2"
+              alt=""
+            />
+            Create Email
+          </button>
+        </div>
+      </div>
+      <div class="row mt-4 container-fluid mx-auto">
+        <div class="col-md-3">
+          <div
+            class="d-flex align-items-center justify-content-between folder-container border-bottom py-3"
+          >
+            <h6 class="font-weight-bold mb-0">Folder</h6>
+            <h6 class="mb-0"><i class="fa-solid fa-minus"></i></h6>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between folder-container border-bottom py-3"
+          >
+            <div>
+              <img
+                src="./Images/Dashboard-img/Icon/image-icon.png"
+                class="mr-2"
+                alt=""
+              /><small class="primary-text font-weight-bold">Inbox</small>
+            </div>
+            <h6 class="mb-0">
+              <span class="p-1 text-white rounded primary-bg">32</span>
+            </h6>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between folder-container py-3"
+          >
+            <div>
+              <img
+                src="./Images/Dashboard-img/Icon/email-icon.png"
+                class="mr-2"
+                alt=""
+              /><small class="primary-text">Sent</small>
+            </div>
+          </div>
+          <div
+            class="d-flex align-items-center justify-content-between folder-container border-bottom py-3 mt-2"
+          >
+            <h6 class="font-weight-bold mb-0">Labels</h6>
+            <h6 class="mb-0"><i class="fa-solid fa-minus"></i></h6>
+          </div>
+          <div class="py-3 border-bottom folder-container">
+            <input
+              type="radio"
+              aria-label="Radio button for following text input border-danger"
+              name="check1"
+              class="danger-radio mr-1"
+            />
+            <span>Important</span>
+          </div>
+          <div class="py-3 border-bottom folder-container">
+            <input
+              type="radio"
+              aria-label="Radio button for following text input "
+              name="check1"
+              class="yellow-radio mr-1"
+            />
+            <span>Important</span>
+          </div>
+          <div class="py-3 border-bottom folder-container">
+            <input
+              type="radio"
+              aria-label="Radio button for following text input"
+              class="primary-radio mr-1"
+              name="check1"
+            />
+            <span>Important</span>
+          </div>
+        </div>
+        <div class="col-md-9 px-0 px-lg-4">
+          <div class="border">
+            <div
+              class="d-flex align-items-center justify-content-between py-3 border-bottom px-3"
+            >
+              <h5 class="font-weight-bold">Inbox</h5>
+              <div class="input-group w-lg-25 w-50">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Mail"
+                  aria-describedby="basic-addon2"
+                />
+                <div class="input-group-append">
+                  <button class="btn primary-bg text-white">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-items-center">
+                <div class="table-box-container">
+                  <input type="checkbox" class="" />
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-reply"></i>
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-arrows-rotate"></i>
+                </div>
+              </div>
+              <div class="d-flex aling-items-center">
+                <h6 class="mb-0 mt-2 mr-2">1-50/200</h6>
+                <div class="table-box-container">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="table-box-container">
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div>
+                  <input type="checkbox" class="table-checkbox mr-4" />
+                </div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">5 Min ago</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div>
+                  <input type="checkbox" class="table-checkbox mr-4" />
+                </div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <div></div>
+                <h6 class="mb-0">Yesterday</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div>
+                  <input type="checkbox" class="table-checkbox mr-4" />
+                </div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 17</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 16</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 16</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 17</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">5 Min ago</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <div></div>
+                <h6 class="mb-0">Yesterday</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 17</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 16</h6>
+              </div>
+            </div>
+            <div
+              class="d-flex align-content-center justify-content-between border-bottom p-3 active-table"
+            >
+              <div class="d-flex align-content-center inbox-table-heading">
+                <div><input type="checkbox" class="table-checkbox mr-4" /></div>
+                <h6 class="mb-0">
+                  <b>Example Subject Email</b>- Trying to find a solution to
+                  this problem...
+                </h6>
+              </div>
+              <div
+                class="table-link-container d-flex align-content-center justify-content-between"
+              >
+                <i class="fa-solid fa-paperclip text-primary"></i>
+                <h6 class="mb-0">Jan 17</h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between p-3">
+              <div class="d-flex align-items-center">
+                <div class="table-box-container">
+                  <input type="checkbox" class="" />
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-reply"></i>
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-share"></i>
+                </div>
+                <div class="table-box-container ml-2">
+                  <i class="fa-solid fa-arrows-rotate"></i>
+                </div>
+              </div>
+              <div class="d-flex aling-items-center">
+                <h6 class="mb-0 mt-2 mr-2">1-50/200</h6>
+                <div class="table-box-container">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="table-box-container">
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EMAIL CONVERSATIONS -->
+    <!-- START REVIEW SECTION -->
+    <section class="mt-5 bg-white pb-5">
+      <div class="border-bottom pb-3">
+        <div
+          class="container-fluid mx-auto d-flex aling-items-center justify-content-between"
+        >
+          <h5 class="font-weight-bold">Reviews</h5>
+          <button class="text-white btn primary-bg">Add Reviews</button>
+        </div>
+      </div>
+      <div class="container-fluid mx-auto table-responsive">
+        <table class="table table-bordered mt-4">
+          <tbody>
+            <tr>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  ID
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Date
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Content
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Rating
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Author
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Email Address
+                  <div>
+                    <img
+                      src="./Images/Dashboard-img/Icon/top-bottom-arrow-icon.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </td>
+              <td class="font-weight-bold">
+                <div class="d-flex aling-items-center justify-content-between">
+                  Action
+                </div>
+              </td>
+              <td class="font-weight-bold">Action</td>
+            </tr>
+            <tr>
+              <td style="color: #818fb0" colspan="8" class="text-center">
+                No Data
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- END REVIEW SECTION -->
+    <!-- BOOTSTRAP JS LINK ADDED -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

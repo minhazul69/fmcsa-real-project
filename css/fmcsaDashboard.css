@@ -1,0 +1,132 @@
+.primary-bg {
+  background-color: #1c38a1 !important;
+}
+.primary-text {
+  color: #1c38a1 !important;
+}
+.primary-border {
+  border: 1px solid #1c38a1 !important;
+}
+.fix-btn {
+  width: 207px !important;
+}
+.secondary-bg {
+  background-color: #e8ba0b !important;
+}
+.success-bg {
+  background-color: #26a042 !important;
+}
+.success-text {
+  color: #26a042 !important;
+}
+.company-info-heading {
+  width: 120px;
+  color: #081b48;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.company-info-text {
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.responsive-border-left {
+  border-left: 1px solid #dedede;
+}
+.create-email-btn {
+  background-color: #678ac1 !important;
+}
+.folder-container {
+  width: 300px;
+}
+.primary-radio,
+.yellow-radio,
+.danger-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #dedede;
+  width: 15px;
+  height: 15px;
+}
+.danger-radio {
+  accent-color: red;
+  outline: 1px solid red;
+}
+.danger-radio:checked {
+  background-color: red;
+}
+.yellow-radio {
+  accent-color: yellow;
+  outline: 1px solid yellow;
+}
+.yellow-radio:checked {
+  background-color: yellow;
+}
+.primary-radio {
+  accent-color: #1c38a1;
+  outline: 1px solid #1c38a1;
+}
+.primary-radio:checked {
+  background-color: #1c38a1;
+}
+.table-box-container {
+  background: #dedede;
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.table-checkbox {
+  /* appearance: none; */
+  /* -webkit-appearance: none; */
+  /* background: #f7f7f7; */
+  border: 2px solid #000 !important;
+  width: 20px;
+  height: 20px;
+  outline: 2px solid #dedede;
+}
+/* .table-checkbox:checked {
+  background: #1c38a1;
+} */
+.table-link-container {
+  width: 20%;
+}
+.active-table {
+  background-color: #f7f7f7;
+}
+.translate-container {
+  transform: translateY(-19px);
+}
+@media only screen and (max-width: 768px) {
+  .responsive-bottom-border {
+    border-bottom: 1px solid #dedede;
+  }
+  .responsive-border-left {
+    border-left: none;
+  }
+  .responsive-btn-block {
+    display: block;
+    width: 100%;
+  }
+  .folder-container {
+    width: 100%;
+  }
+  .inbox-table-heading {
+    width: 50%;
+  }
+  .table-link-container {
+    width: 38%;
+  }
+  .responsive-fix-btn {
+    width: 207px !important;
+  }
+  .translate-container {
+    transform: translateY(0);
+  }
+}

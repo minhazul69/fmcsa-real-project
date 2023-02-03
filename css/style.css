@@ -1,0 +1,121 @@
+.navbar-bg-color,
+.footer-bg-color {
+  background-color: #084382;
+}
+.primary-text {
+  color: #084382;
+}
+.section-heading-bottom,
+.section-heading-left {
+  position: relative;
+}
+.section-heading-bottom::after,
+.section-heading-left::after {
+  content: "";
+  position: absolute;
+
+  width: 100px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: #fcd12a;
+}
+.section-heading-bottom::after {
+  bottom: 0px;
+  left: 50%;
+}
+.home-group-container {
+  border: 1px solid #084382;
+  border-radius: 5px;
+}
+.home-group-container h3 {
+  font-size: 24px;
+}
+.home-group-text {
+  /* width: 200px; */
+  font-size: 10px;
+}
+.home-group-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #084382;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  border-radius: 50%;
+}
+.home-group-icon i {
+  font-size: 25px;
+}
+.home-group-img {
+  width: 65px !important;
+  height: 65px !important;
+  border-radius: 50%;
+  background-color: #d2e8ff;
+  overflow: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-group-img img {
+  width: 38px;
+}
+.section-heading-left::after {
+  bottom: 0px;
+  left: 54px;
+}
+.trucking-company-section {
+  background: #e5e5e5;
+}
+.filling-img {
+  width: 80px;
+  height: 80px;
+  background: #084382;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-list-heading {
+  color: #fcd12a;
+}
+.footer-social-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.51);
+  align-items: center;
+  text-decoration: none !important;
+}
+.footer-social-icon i {
+  font-size: 20px;
+  color: white;
+}
+.footer-bottom-container {
+  border-top: 1px solid #fcd12a;
+}
+.footer-bottom-container p {
+  font-size: 12px;
+  color: white;
+}
+.scroll-btn {
+  background-color: #fcd12a;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 100px;
+  bottom: 67px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+  .scroll-btn {
+    width: 100%;
+    right: 0;
+    
+  }
+}
